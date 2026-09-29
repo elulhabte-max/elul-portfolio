@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elul Tekeste | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <h2 class="logo">ET.</h2>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#careers">Careers</a></li>
+      <li><a href="#travel">Travel</a></li>
+    </ul>
+    <button id="themeButton" aria-label="Toggle light and dark mode">🌙</button>
+  </nav>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hi, I'm <span>Elul Tekeste</span></h1>
+        <h2 id="typingText">Future Tech Professional</h2>
+        <p>I'm originally from Eritrea and currently live in Maryland. I'm building my skills in technology and exploring different careers in the tech industry.</p>
+        <div class="buttons">
+          <a href="https://www.linkedin.com/in/elul-tekeste-049a64172" target="_blank" rel="noopener noreferrer" class="btn">LinkedIn</a>
+          <a href="https://github.com/elulhabte-max/elul-portfolio" target="_blank" rel="noopener noreferrer" class="btn outline">GitHub</a>
+        </div>
+      </div>
+
+      <div class="code-box" aria-label="Developer profile code sample">
+        <div class="code-top"><span></span><span></span><span></span></div>
+        <pre><code>const developer = {
+  name: "Elul Tekeste",
+  from: "Eritrea",
+  location: "Maryland",
+  interests: [
+    "Cybersecurity",
+    "IT Support",
+    "Project Management"
+  ]
+};
+
+console.log("Welcome!");</code></pre>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section-label">GET TO KNOW ME</p>
+      <h2>About Me</h2>
+      <div class="about-card">
+        <h3>👋 Who am I?</h3>
+        <p>My name is Elul Tekeste. I'm from Eritrea and currently live in Maryland. Technology interests me because it is constantly changing and gives me opportunities to solve problems and learn new skills.</p>
+        <p>I'm especially interested in cybersecurity, technical support, networking, and project management.</p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <p class="section-label">MY WORK</p>
+      <h2>CodeSquad Mini Course</h2>
+      <p class="section-description">Here are three screenshots showing different parts of my CodeSquad Mini Course portfolio work.</p>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <img src="images/assignment1.png" alt="CodeSquad HTML portfolio structure screenshot" class="project-image">
+          <div class="project-info">
+            <p>HTML</p>
+            <h3>HTML Structure</h3>
+            <span>Building the structure, navigation, and content of my portfolio.</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/assignment2.png" alt="CodeSquad CSS styling screenshot" class="project-image">
+          <div class="project-info">
+            <p>CSS</p>
+            <h3>CSS Styling</h3>
+            <span>Using CSS to design the layout, colors, spacing, and overall appearance.</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="images/assignment3.png" alt="CodeSquad portfolio development screenshot" class="project-image">
+          <div class="project-info">
+            <p>WEB DEVELOPMENT</p>
+            <h3>Portfolio Development</h3>
+            <span>Combining HTML, CSS, and JavaScript to create an interactive portfolio.</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="careers">
+      <p class="section-label">MY FUTURE</p>
+      <h2>Tech Careers I Want to Explore</h2>
+      <div class="career-grid">
+        <div class="career-card">
+          <div class="career-number">01</div>
+          <h3>🔐 Cybersecurity</h3>
+          <p>Protecting computer systems, networks, and information from cyber threats.</p>
+        </div>
+        <div class="career-card">
+          <div class="career-number">02</div>
+          <h3>🖥️ IT Support</h3>
+          <p>Troubleshooting computers, networks, software, and helping users solve technical problems.</p>
+        </div>
+        <div class="career-card">
+          <div class="career-number">03</div>
+          <h3>📊 Project Management</h3>
+          <p>Helping technology teams organize projects, communicate, and successfully reach their goals.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="travel">
+      <div class="travel-content">
+        <p class="section-label">MY BUCKET LIST</p>
+        <h2>Jamaica 🇯🇲</h2>
+        <p>One place I would love to travel to is Jamaica. I would like to experience the beaches, food, culture, and outdoor activities.</p>
+        <div class="travel-tags">
+          <span>🌊 Jet Ski</span><span>🏝️ Beaches</span><span>🚙 ATV</span><span>🚤 Boat Ride</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <h2>Let's Connect.</h2>
+    <p>Thanks for checking out my portfolio.</p>
+    <div class="footer-links">
+      <a href="https://www.linkedin.com/in/elul-tekeste-049a64172" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      <a href="https://github.com/elulhabte-max/elul-portfolio" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </div>
+    <p class="copyright">© 2026 Elul Tekeste • Built with HTML, CSS &amp; JavaScript</p>
+  </footer>
+
+  <div id="imageModal" role="dialog" aria-modal="true" aria-label="Project screenshot preview">
+    <span id="closeModal">&times;</span>
+    <img id="modalImage" src="" alt="Project Preview">
+  </div>
+  <button id="topButton" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
